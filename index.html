@@ -2,49 +2,53 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Artaud</title>
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="icon" type="image/png" href="Pescado_Rabioso-Spinetta_-_Artaud.png">
     </head>
 
     <body class="bg-lime-500">
-        <div class="grid grid-cols-3">
-            <div class="bg-yellow-300 w-50 border-1">
-                <h1 class="text-center font-semibold text-[30px]">Menú</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+            <!-- Menú -->
+            <div class="bg-yellow-300 border p-4">
+                <h1 class="text-center font-semibold text-xl md:text-2xl">Menú</h1>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#hojas">Todas las Hojas son del Viento</a>
+                    <a class="block text-indigo-800 hover:underline" href="#hojas">Todas las Hojas son del Viento</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Cementerio">Cementerio Club</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Cementerio">Cementerio Club</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Por">Por</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Por">Por</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Supercheria">Supercheria</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Supercheria">Supercheria</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Sed">La Sed Verdadera</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Sed">La Sed Verdadera</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Puente">Cantata de Puentes Amarillos</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Puente">Cantata de Puentes Amarillos</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Bajan">Bajan</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Bajan">Bajan</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Starosta">A Starosta, el Idiota</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Starosta">A Starosta, el Idiota</a>
                 </div>
                 <div class="my-2">
-                    <a class="m-1 text-indigo-800" href="#Mundo">Las Habladurias del Mundo</a>
+                    <a class="block text-indigo-800 hover:underline" href="#Mundo">Las Habladurias del Mundo</a>
                 </div>
             </div>
-            <div class="grid m-1">
-                <h1 class="text-center text-[30px] font-extrabold">Letas de las Canciones de Artaud</h1>
+
+            <!-- Letras -->
+            <div class="col-span-2">
+                <h1 class="text-center text-xl md:text-3xl font-extrabold">Letras de las Canciones de Artaud</h1>
                 <div class="m-5">
-                    <h1 id="hojas" class="text-center font-medium text-[20px]">Todas las Hojas son del Viento</h1>
-                    <p class="text-center">Cuida bien al niño<br>
+                    <h1 id="hojas" class="text-center font-medium text-lg md:text-xl">Todas las Hojas son del Viento</h1>
+                    <p class="text-center text-sm md:text-base">
+                        Cuida bien al niño<br>
                         Cuida bien su mente<br>
                         Dale un Sol de enero<br>
                         Dale un vientre blanco<br>
@@ -66,11 +70,13 @@
                         Ya que él las mueve hasta la muerte<br>
                         Todas las hojas son del viento<br>
                         Menos la luz del Sol<br>
-                        Menos la luz del Sol<br></p>
+                        Menos la luz del Sol<br>
+                    </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Cementerio" class="text-center font-medium text-[20px]">Cementerio Club</h1>
-                    <p class="text-center">Justo que pensaba<br>
+                    <h1 id="Cementerio" class="text-center font-medium text-lg md:text-xl">Cementerio Club</h1>
+                    <p class="text-center text-sm md:text-base">
+                        Justo que pensaba<br>
                         en vos ( nena )<br>
                         caí muerto<br>
                         ¿ quién le dió, al pequeño Dios<br>
@@ -87,11 +93,13 @@
                         Que solo y triste voy a estar<br>
                         en este cementerio<br>
                         que calor hará sin vos<br>
-                        en verano<br></p>
+                        en verano<br>
+                    </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Por" class="text-center font-medium text-[20px]">Por</h1>
-                    <p class="text-center">Arbol
+                    <h1 id="Por" class="text-center font-medium text-lg md:text-xl">Por</h1>
+                    <p class="text-center text-sm md:text-base">
+                        Arbol
                         Hoja
                         Salto
                         Luz<br>
@@ -137,11 +145,13 @@
                         Dios
                         Temor<br>
                         Mujer
-                        Por<br></p>
+                        Por<br>
+                    </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Supercheria" class="text-center font-medium text-[20px]">Supercheria</h1>
-                    <p class="text-center">Superstición
+                    <h1 id="Supercheria" class="text-center font-medium text-lg md:text-xl">Supercheria</h1>
+                    <p class="text-center text-sm md:text-base">
+                        Superstición
                         Superstición<br>
                         Superstición<br>
                         <br>
@@ -178,11 +188,12 @@
                         Y no hacés más nada porque creés<br>
                         Que ahora<br>
                         Ya no estás más solo<br>
-                        Si te dieras al menos un porqué<br></p>
+                        Si te dieras al menos un porqué<br>
+                    </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Sed" class="text-center font-medium text-[20px]">La Sed Verdadera</h1>
-                    <p class="text-center">
+                    <h1 id="Sed" class="text-center font-medium text-lg md:text-xl">La Sed Verdadera</h1>
+                    <p class="text-center text-sm md:text-base">
                         Sé muy bien que has oído hablar de mí<br>
                         y hoy estamos aquí,<br>
                         pero la paz en mí nunca la encontrarás.<br>
@@ -196,11 +207,12 @@
                         Viste la piel, creíste en todo lo que yo te dí,<br>
                         nada salió de vos, ¡ah! mira el fuego.<br>
                         Las luces que saltan a lo lejos,<br>
-                        no esperan que vayas a apagarlas, jamás<br></p>
+                        no esperan que vayas a apagarlas, jamás<br>
+                    </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Puente" class="text-center font-medium text-[20px]">Cantata de Puentes Amarillos</h1>
-                    <p class="text-center">
+                    <h1 id="Puente" class="text-center font-medium text-lg md:text-xl">Cantata de Puentes Amarillos</h1>
+                    <p class="text-center text-sm md:text-base">
                         Todo camino puede andar<br>
                         Todo puede andar<br>
                         Con esta sangre alrededor<br>
@@ -270,8 +282,8 @@
                     </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Bajan" class="text-center font-medium text-[20px]">Bajan</h1>
-                    <p class="text-center">
+                    <h1 id="Bajan" class="text-center font-medium text-lg md:text-xl">Bajan</h1>
+                    <p class="text-center text-sm md:text-base">
                         Tengo tiempo para saber<br>
                         Tengo tiempo para saber<br>
                         Si lo que sueño concluye en algo<br>
@@ -294,8 +306,8 @@
                     </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Starosta" class="text-center font-medium text-[20px]">A Starosta, el Idiota</h1>
-                    <p class="text-center">
+                    <h1 id="Starosta" class="text-center font-medium text-lg md:text-xl">A Starosta, el Idiota</h1>
+                    <p class="text-center text-sm md:text-base">
                         Bocas del aire del mar<br>
                         Beban la sal de esta luz<br>
                         Para sí<br>
@@ -326,8 +338,8 @@
                     </p>
                 </div>
                 <div class="m-5">
-                    <h1 id="Mundo" class="text-center font-medium text-[20px]">Las Habladurias del Mundo</h1>
-                    <p class="text-center">
+                    <h1 id="Mundo" class="text-center font-medium text-lg md:text-xl">Las Habladurias del Mundo</h1>
+                    <p class="text-center text-sm md:text-base">
                         Toda toda la ternura me darás<br>
                         Si te ofrezco ser<br>
                         Parte de tu cuerpo<br>
@@ -353,12 +365,12 @@
             </div>
         </div>
 
+        <!-- Footer -->
+        <footer>
+            <div class="bg-slate-500 flex flex-col md:flex-row items-center justify-between h-auto md:h-20 p-4">
+                <h1 class="text-white text-center md:text-left">Tobías Reyna 2025</h1>
+                <img src="instagram-logo.png" class="h-6 mt-2 md:mt-0">
+            </div>
+        </footer>
     </body>
-
-    <footer>
-        <div class="bg-slate-500 felx flex-row h-20 border-1">
-            <h1 class="m-2">Tobías Reyna</h1>
-            <img src="instagram-logo.png" class="h-6 m-2">
-        </div>
-    </footer>
 </html>
